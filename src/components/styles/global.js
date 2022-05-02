@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 import CovidImg from '../../assets/images/covid.jpg';
 
-const globalStyle = createGlobalStyle`
+const globalStyle = createGlobalStyle `
   * {
     outline: none;
     box-sizing: border-box;
@@ -38,6 +38,18 @@ const globalStyle = createGlobalStyle`
   .cursor {
     cursor: pointer;
   }
+.fixarRodape {
+     background: black;
+     border-top: 1px solid #333;
+     bottom: 0;
+     left: 0;
+     height: 40px;
+     position: fixed;
+     text-align: center;
+     background-color: rgb(120, 205, 175);;
+     width: 100%;
+    background-position: center;
+ }
 
 `
 
